@@ -459,7 +459,7 @@ const LandingPage = () => {
               </h2>
               <p className="text-white mb-8">
                 Lorem ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's.
+                industry. Lorem Ipsum has been the industry's. 
               </p>
               <div className="space-y-4">
                 {[
