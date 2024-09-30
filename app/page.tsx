@@ -20,6 +20,7 @@ import {
   SiJavascript,
   SiNodedotjs,
   SiNextdotjs,
+  IconType
 } from "@icons-pack/react-simple-icons";
 import Image from "next/image";
 
@@ -32,11 +33,11 @@ interface CardProps {
 }
 
 interface IExperience {
-  Icon: any;
+  Icon: IconType;
   name: string;
 }
 
-const Card: React.FC<CardProps> = ({ icon, title, description }) => (
+const Card: React.FC<CardProps> = ({ title, description }) => (
   <div className=" rounded-xl p-1.5 bg-gradient-to-br from-blue-500 to-purple-600">
     <div className=" bg-[#0E1630] p-10 rounded-md">
       <div className=" flex gap-8 items-center mb-4">
@@ -212,7 +213,7 @@ const LandingPage = () => {
 
       <main className="flex flex-col justify-center px-4 md:px-16 lg:px-32 pt-16 md:pt-32 max-w-full">
         <h2 className="text-xl md:text-2xl text-gray-400 mb-2 font-bold">
-          I'm a
+          I&#39;m a
         </h2>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 break-words">
           FULL STACK
@@ -243,7 +244,7 @@ const LandingPage = () => {
             <h2 className="text-3xl md:text-4xl font-bold">ABOUT ME</h2>
             <p className="text-gray-400 leading-6 font-bold">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industry&#39;s standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
               survived not only five centuries, but also the leap into
@@ -277,7 +278,7 @@ const LandingPage = () => {
               </h2>
               <p className="text-gray-400 leading-6 font-bold">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                industry. Lorem Ipsum has been the industry&#39;s standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries, but also the leap into
@@ -313,7 +314,7 @@ const LandingPage = () => {
               </h2>
               <p className="text-gray-400 leading-6 font-bold">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                industry. Lorem Ipsum has been the industry&#39;s standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries, but also the leap into
@@ -349,7 +350,7 @@ const LandingPage = () => {
               </h2>
               <p className="text-gray-400 leading-6 font-bold">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                industry. Lorem Ipsum has been the industry&#39;s standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries, but also the leap into
@@ -385,7 +386,7 @@ const LandingPage = () => {
               </h2>
               <p className="text-gray-400 leading-6 font-bold">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                industry. Lorem Ipsum has been the industry&#39;s standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries, but also the leap into
@@ -459,7 +460,7 @@ const LandingPage = () => {
               </h2>
               <p className="text-white mb-8">
                 Lorem ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's. 
+                industry. Lorem Ipsum has been the industry&#39;s. 
               </p>
               <div className="space-y-4">
                 {[
